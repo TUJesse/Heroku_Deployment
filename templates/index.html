@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice-cream price predictor</title>
+</head>
+<body>
+    <h1>Welcome to ice-cream predictor!</h1>
+
+    <!-- <form action="predict.html" method="POST">
+        <label for="langInput">Input a sentence in any language:</label>
+        <input type="text" id="langInput" name="langInput" required>
+        <input type="submit" value="Submit">
+    </form> -->
+
+
+    <form action="predict.html" method="POST">
+        <label for="colors">Select your flavor:</label>
+        <select id="flavors" name="flavors" multiple required>
+          <option value="Vanilla">Vanilla</option>
+          <option value="Chocolate">Chocolate</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="MintChip">MintChip</option>
+          <option value="CookieDough">CookieDough</option>
+        </select>
+        <br>
+        <br>
+        <label for="size">Select your size</label>
+        <select id="sizes" name="sizes" multiple required>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+        <input type="submit" value="Submit">
+      </form>
+      
+
+
+</body>
+</html>
